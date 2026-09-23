@@ -1,0 +1,7 @@
+{
+  "parent": "non_dystopia_mod_beta:custom/iron_pipe",
+  "textures": {
+    "0": "non_dystopia_mod_beta:block/iron_pipe",
+    "particle": "non_dystopia_mod_beta:item/iron_pipe"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "non_dystopia_mod_beta:pipe"
+    }
+  },
+  "result": {
+    "item": "non_dystopia_mod_beta:ironpipe",
+    "count": 1
+  }
+}

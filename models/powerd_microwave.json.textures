@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "microwave_main",
+        "1": "powerd_microwave_glass"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "non_dystopia_mod_beta:copperwire"
+    },
+    "b": {
+      "item": "non_dystopia_mod_beta:redcoil"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "non_dystopia_mod_beta:electro_heat_tool",
+    "count": 1
+  }
+}

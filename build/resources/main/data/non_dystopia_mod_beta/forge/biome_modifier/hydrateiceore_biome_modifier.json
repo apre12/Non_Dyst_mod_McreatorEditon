@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "non_dystopia_mod_beta:hydroflow",
+  "features": "non_dystopia_mod_beta:hydrateiceore",
+  "step": "underground_ores"
+}

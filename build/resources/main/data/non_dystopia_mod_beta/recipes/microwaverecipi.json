@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "abc",
+    "ded",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:comparator"
+    },
+    "b": {
+      "item": "minecraft:iron_block"
+    },
+    "c": {
+      "item": "minecraft:repeater"
+    },
+    "d": {
+      "item": "non_dystopia_mod_beta:redcoil"
+    },
+    "e": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "result": {
+    "item": "non_dystopia_mod_beta:microwave",
+    "count": 1
+  }
+}

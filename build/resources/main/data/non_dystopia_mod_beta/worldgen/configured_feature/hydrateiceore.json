@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 8,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "non_dystopia_mod_beta:uranushydratedirt"
+          }
+        },
+        "state": {
+          "Name": "non_dystopia_mod_beta:hydrateiceore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:bubble_column",
+            "Properties": {
+              "drag": "true"
+            }
+          }
+        },
+        "state": {
+          "Name": "non_dystopia_mod_beta:hydrateiceore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        },
+        "state": {
+          "Name": "non_dystopia_mod_beta:hydrateiceore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:water",
+            "Properties": {
+              "level": "0"
+            }
+          }
+        },
+        "state": {
+          "Name": "non_dystopia_mod_beta:hydrateiceore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:snow_block"
+          }
+        },
+        "state": {
+          "Name": "non_dystopia_mod_beta:hydrateiceore"
+        }
+      }
+    ]
+  }
+}

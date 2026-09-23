@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "neutron_piller_block"
+      },
+      "name": "default"
+    }
+  }
+}

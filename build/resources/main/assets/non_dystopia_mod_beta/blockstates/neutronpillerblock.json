@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "non_dystopia_mod_beta:block/neutronpillerblock"
+    },
+    "facing=east": {
+      "model": "non_dystopia_mod_beta:block/neutronpillerblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "non_dystopia_mod_beta:block/neutronpillerblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "non_dystopia_mod_beta:block/neutronpillerblock",
+      "y": 270
+    }
+  }
+}

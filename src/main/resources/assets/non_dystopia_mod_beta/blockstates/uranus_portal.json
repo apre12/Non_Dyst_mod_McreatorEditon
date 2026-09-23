@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "non_dystopia_mod_beta:block/uranus_portal_ew"
+    },
+    "axis=x": {
+      "model": "non_dystopia_mod_beta:block/uranus_portal_ns"
+    }
+  }
+}

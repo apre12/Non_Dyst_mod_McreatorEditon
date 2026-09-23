@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "non_dystopia_mod_beta:blocks/siliconhydrateplank",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "non_dystopia_mod_beta:siliconhydrateplank"
+        }
+      ]
+    }
+  ]
+}

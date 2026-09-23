@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "non_dystopia_mod_beta:block/pipe_kari",
+    "particle": "non_dystopia_mod_beta:block/pipe_kari"
+  },
+  "render_type": "cutout"
+}

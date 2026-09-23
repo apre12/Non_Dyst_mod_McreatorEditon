@@ -1,0 +1,10 @@
+{
+  "parent": "non_dystopia_mod_beta:custom/microwave",
+  "textures": {
+    "all": "non_dystopia_mod_beta:block/microwave_main",
+    "particle": "non_dystopia_mod_beta:block/microwave_main",
+    "0": "non_dystopia_mod_beta:block/microwave_main",
+    "1": "non_dystopia_mod_beta:block/microwave_glass"
+  },
+  "render_type": "solid"
+}

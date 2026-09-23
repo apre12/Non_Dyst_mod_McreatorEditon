@@ -1,0 +1,10 @@
+{
+  "uranus_echo": {
+    "sounds": [
+      {
+        "name": "non_dystopia_mod_beta:uranus_echo_uranus_biological_ost",
+        "stream": true
+      }
+    ]
+  }
+}

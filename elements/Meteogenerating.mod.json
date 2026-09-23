@@ -1,0 +1,36 @@
+{
+  "_fv": 73,
+  "_type": "structure",
+  "definition": {
+    "structure": "meteo",
+    "projection": "terrain_matching",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 21,
+    "separation": 20,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Uranusplains"
+      },
+      {
+        "value": "CUSTOM:UranusEther"
+      },
+      {
+        "value": "CUSTOM:Hydroflow"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "MOTION_BLOCKING",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

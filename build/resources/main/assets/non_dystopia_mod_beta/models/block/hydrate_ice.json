@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "non_dystopia_mod_beta:block/hydrate_ice",
+    "top": "non_dystopia_mod_beta:block/hydrate_ice",
+    "side": "non_dystopia_mod_beta:block/hydrate_ice",
+    "overlay": "non_dystopia_mod_beta:block/hydrate_ice",
+    "particle": "non_dystopia_mod_beta:block/hydrate_ice"
+  },
+  "render_type": "solid"
+}

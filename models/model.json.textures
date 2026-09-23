@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "folder",
+        "1": "page",
+        "2": "stoper"
+      },
+      "name": "default"
+    }
+  }
+}

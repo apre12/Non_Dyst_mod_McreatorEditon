@@ -1,0 +1,9 @@
+{
+  "parent": "non_dystopia_mod_beta:custom/neutron_piller_block",
+  "textures": {
+    "all": "non_dystopia_mod_beta:block/neutron_piller_block",
+    "particle": "non_dystopia_mod_beta:block/neutron_piller_block",
+    "1": "non_dystopia_mod_beta:block/neutron_piller_block"
+  },
+  "render_type": "cutout"
+}

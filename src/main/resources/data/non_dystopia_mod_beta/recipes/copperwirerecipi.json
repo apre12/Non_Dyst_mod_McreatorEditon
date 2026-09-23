@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "minecraft:copper_ingot"
+  },
+  "result": "non_dystopia_mod_beta:copperwire"
+}

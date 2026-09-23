@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "non_dystopia_mod_beta:hydrate_ice",
+    "non_dystopia_mod_beta:uranushydratedirt",
+    "minecraft:powder_snow",
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "minecraft:snow_block"
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "_fv": 73,
+  "_type": "block",
+  "definition": {
+    "texture": "helium_cloud",
+    "textureTop": "helium_cloud",
+    "textureLeft": "helium_cloud",
+    "textureFront": "helium_cloud",
+    "textureRight": "helium_cloud",
+    "textureBack": "helium_cloud",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": true,
+    "itemTexture": "",
+    "particleTexture": "helium_cloud",
+    "tintType": "No tint",
+    "isItemTinted": true,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "CUTOUT",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "customProperties": [],
+    "name": "Helium Cloud",
+    "specialInformation": {
+      "fixedValue": [
+        "個体ヘリウム"
+      ]
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Nondystpia"
+      }
+    ],
+    "destroyTool": "shovel",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "ROCK"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "AIR",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DANGER_POWDER_SNOW",
+    "beaconColorModifier": {
+      "value": -13057,
+      "falpha": 0.0
+    },
+    "flammability": 1,
+    "fireSpreadSpeed": 100,
+    "isLadder": false,
+    "slipperiness": 1.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.5,
+    "reactionToPushing": "IGNORE",
+    "isNotColidable": true,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "EMPTY"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "STONE",
+    "isBonemealable": false,
+    "hasInventory": false,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onEntityCollides": {
+      "name": "HeliumFloat"
+    },
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:UranusEther"
+      },
+      {
+        "value": "CUSTOM:Uranusplains"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 8,
+    "frequencyOnChunk": 17,
+    "minGenerateHeight": 90,
+    "maxGenerateHeight": 110
+  }
+}

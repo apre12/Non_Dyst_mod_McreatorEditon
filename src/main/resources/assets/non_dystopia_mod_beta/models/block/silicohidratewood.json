@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "non_dystopia_mod_beta:block/silicosydratewood",
+    "top": "non_dystopia_mod_beta:block/silicosydratewood",
+    "side": "non_dystopia_mod_beta:block/silicohydratewoodside",
+    "overlay": "non_dystopia_mod_beta:block/silicohydratewoodside",
+    "particle": "non_dystopia_mod_beta:block/silicosydratewood"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "non_dystopia_mod_beta:uranustree",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 3,
+    "separation": 2,
+    "salt": 315938252
+  }
+}

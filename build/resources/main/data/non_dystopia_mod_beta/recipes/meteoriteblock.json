@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "non_dystopia_mod_beta:meteoriteingot"
+    }
+  },
+  "result": {
+    "item": "non_dystopia_mod_beta:meteorite",
+    "count": 1
+  }
+}

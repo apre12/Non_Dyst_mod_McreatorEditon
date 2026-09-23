@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "non_dystopia_mod_beta:meteorite"
+    }
+  },
+  "result": {
+    "item": "non_dystopia_mod_beta:meteo_tile",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "non_dystopia_mod_beta:blocks/ironpipeasblock",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "non_dystopia_mod_beta:pipe",
+          "functions": [
+            {
+              "count": 9,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

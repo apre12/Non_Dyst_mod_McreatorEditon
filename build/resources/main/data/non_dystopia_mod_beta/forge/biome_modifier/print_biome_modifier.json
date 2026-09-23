@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "non_dystopia_mod_beta:uranusplains",
+  "spawners": {
+    "type": "non_dystopia_mod_beta:print",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

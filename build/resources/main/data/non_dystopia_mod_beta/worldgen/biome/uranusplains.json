@@ -1,0 +1,62 @@
+{
+  "has_precipitation": true,
+  "temperature": 0,
+  "downfall": 0.5,
+  "effects": {
+    "mood_sound": {
+      "sound": "block.bell.use",
+      "tick_delay": 10000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "additions_sound": {
+      "sound": "block.amethyst_cluster.step",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "music.menu",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "dripping_water"
+      },
+      "probability": 0.001
+    },
+    "foliage_color": -13057,
+    "grass_color": -13057,
+    "sky_color": -10066177,
+    "fog_color": -10066177,
+    "water_color": -52,
+    "water_fog_color": -52
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "non_dystopia_mod_beta:uranusplains_tree"
+    ],
+    []
+  ]
+}

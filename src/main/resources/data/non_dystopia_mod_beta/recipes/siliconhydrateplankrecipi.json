@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "non_dystopia_mod_beta:silicohidratewood"
+    }
+  ],
+  "result": {
+    "item": "non_dystopia_mod_beta:siliconhydrateplank",
+    "count": 4
+  }
+}

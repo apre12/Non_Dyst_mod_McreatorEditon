@@ -1,0 +1,21 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Blocks.POLISHED_DEEPSLATE"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "block.deepslate_bricks.place"
+    },
+    "igniteFire": false,
+    "power": 0.9,
+    "damage": 7.0,
+    "knockback": 8,
+    "entityModel": "Default",
+    "customModelTexture": "printsshell.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
+  }
+}

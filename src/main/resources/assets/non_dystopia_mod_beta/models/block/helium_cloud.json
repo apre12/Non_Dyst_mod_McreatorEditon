@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "non_dystopia_mod_beta:block/helium_cloud",
+    "up": "non_dystopia_mod_beta:block/helium_cloud",
+    "north": "non_dystopia_mod_beta:block/helium_cloud",
+    "east": "non_dystopia_mod_beta:block/helium_cloud",
+    "south": "non_dystopia_mod_beta:block/helium_cloud",
+    "west": "non_dystopia_mod_beta:block/helium_cloud",
+    "particle": "non_dystopia_mod_beta:block/helium_cloud"
+  },
+  "render_type": "cutout"
+}

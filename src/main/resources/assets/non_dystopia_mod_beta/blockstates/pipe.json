@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "non_dystopia_mod_beta:block/pipe"
+    },
+    "facing=east": {
+      "model": "non_dystopia_mod_beta:block/pipe",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "non_dystopia_mod_beta:block/pipe",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "non_dystopia_mod_beta:block/pipe",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "non_dystopia_mod_beta:block/pipe",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "non_dystopia_mod_beta:block/pipe",
+      "x": 90
+    }
+  }
+}

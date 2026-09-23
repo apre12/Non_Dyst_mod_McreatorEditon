@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "non_dystopia_mod_beta:block/hydratedirt",
+    "particle": "non_dystopia_mod_beta:block/hydratedirt"
+  },
+  "render_type": "solid"
+}

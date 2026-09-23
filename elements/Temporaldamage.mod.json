@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 100.0,
+    "scaling": "never",
+    "effects": "thorns",
+    "normalDeathMessage": "%1$s was crashed and burned by neutron-radiation.",
+    "itemDeathMessage": "%1$s was crashed and burned by %2$s using %3$s",
+    "playerDeathMessage": "%1$s crashed and burned whilst trying to escape %2$s"
+  }
+}

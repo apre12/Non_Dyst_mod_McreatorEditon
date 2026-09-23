@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "non_dystopia_mod_beta:block/ironpipeasblock",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "non_dystopia_mod_beta:block/ironpipeasblock"
+    },
+    "axis=z": {
+      "model": "non_dystopia_mod_beta:block/ironpipeasblock",
+      "x": 90
+    }
+  }
+}

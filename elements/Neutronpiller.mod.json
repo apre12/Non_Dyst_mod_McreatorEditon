@@ -1,0 +1,30 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Neutroncore"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "block.conduit.deactivate"
+    },
+    "igniteFire": false,
+    "power": 15.0,
+    "damage": 0.0,
+    "knockback": 50,
+    "entityModel": "Modelneutron_piller_block_Converted",
+    "customModelTexture": "neutron_piller_entity.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "Projectile_neutron_piller_on_blockhit"
+    },
+    "onHitsEntity": {
+      "name": "Projectile_neutron_piller_on_hit"
+    },
+    "onFlyingTick": {
+      "name": "Projectile_neutron_piller_on_tick"
+    }
+  }
+}

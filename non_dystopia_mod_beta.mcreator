@@ -1,0 +1,1395 @@
+{
+  "mod_elements": [
+    {
+      "name": "OnlyOneUseBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "only_one_use_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/only_one_use_blade.json",
+          "src/main/java/net/mcreator/nondystopiamod/item/OnlyOneUseBladeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Uranus",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/non_dystopia_mod_beta/dimension_type/uranus.json",
+          "src/main/resources/assets/non_dystopia_mod_beta/blockstates/uranus_portal.json",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/block/uranus_portal_ns.json",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/uranus.json",
+          "src/main/java/net/mcreator/nondystopiamod/world/teleporter/UranusPortalShape.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/block/uranus_portal_ew.json",
+          "src/main/resources/data/non_dystopia_mod_beta/dimension/uranus.json",
+          "src/main/java/net/mcreator/nondystopiamod/world/dimension/UranusDimension.java",
+          "src/main/java/net/mcreator/nondystopiamod/block/UranusPortalBlock.java",
+          "src/main/java/net/mcreator/nondystopiamod/item/UranusItem.java",
+          "src/main/java/net/mcreator/nondystopiamod/world/teleporter/UranusTeleporter.java"
+        ]
+      }
+    },
+    {
+      "name": "Nondystpia",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nondystpia",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Uranusplains",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranusplains",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/world/features/treedecorators/UranusplainsFruitDecorator.java",
+          "src/main/resources/data/non_dystopia_mod_beta/worldgen/biome/uranusplains.json",
+          "src/main/resources/data/non_dystopia_mod_beta/worldgen/placed_feature/uranusplains_tree.json",
+          "src/main/java/net/mcreator/nondystopiamod/world/features/treedecorators/UranusplainsTrunkDecorator.java",
+          "src/main/java/net/mcreator/nondystopiamod/world/features/treedecorators/UranusplainsLeaveDecorator.java",
+          "src/main/resources/data/non_dystopia_mod_beta/worldgen/configured_feature/uranusplains_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "UranusEther",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranus_ether",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/non_dystopia_mod_beta/worldgen/configured_feature/uranus_ether_tree.json",
+          "src/main/java/net/mcreator/nondystopiamod/world/features/treedecorators/UranusEtherLeaveDecorator.java",
+          "src/main/resources/data/non_dystopia_mod_beta/worldgen/placed_feature/uranus_ether_tree.json",
+          "src/main/java/net/mcreator/nondystopiamod/world/features/treedecorators/UranusEtherFruitDecorator.java",
+          "src/main/resources/data/non_dystopia_mod_beta/worldgen/biome/uranus_ether.json",
+          "src/main/java/net/mcreator/nondystopiamod/world/features/treedecorators/UranusEtherTrunkDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "HeliumCloud",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helium_cloud",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/non_dystopia_mod_beta/worldgen/configured_feature/helium_cloud.json",
+          "src/main/resources/assets/non_dystopia_mod_beta/blockstates/helium_cloud.json",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/block/helium_cloud.json",
+          "src/main/resources/data/non_dystopia_mod_beta/forge/biome_modifier/helium_cloud_biome_modifier.json",
+          "src/main/resources/data/non_dystopia_mod_beta/worldgen/placed_feature/helium_cloud.json",
+          "src/main/java/net/mcreator/nondystopiamod/block/HeliumCloudBlock.java",
+          "src/main/resources/data/non_dystopia_mod_beta/loot_tables/blocks/helium_cloud.json",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/helium_cloud.json"
+        ]
+      }
+    },
+    {
+      "name": "PrintisTameable",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printis_tameable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/PrintisTameableProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pipe",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/block/PipeBlock.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/block/pipe.json",
+          "src/main/resources/data/non_dystopia_mod_beta/loot_tables/blocks/pipe.json",
+          "src/main/resources/assets/non_dystopia_mod_beta/blockstates/pipe.json",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/pipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Floopy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floopy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/floopy.json",
+          "src/main/java/net/mcreator/nondystopiamod/item/FloopyItem.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/floopy_0.json",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/floopy_1.json"
+        ]
+      }
+    },
+    {
+      "name": "CHaP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_ha_ptoblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/CHaPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WrittenFloopyCHaP",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "written_floopy_c_ha_p",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/written_floopy_c_ha_p.json",
+          "src/main/java/net/mcreator/nondystopiamod/item/WrittenFloopyCHaPItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ironpipe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironpipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/ironpipe.json",
+          "src/main/java/net/mcreator/nondystopiamod/item/IronpipeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Print",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "print",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/print_spawn_egg.json",
+          "src/main/resources/data/non_dystopia_mod_beta/forge/biome_modifier/print_biome_modifier.json",
+          "src/main/java/net/mcreator/nondystopiamod/entity/PrintEntity.java",
+          "src/main/java/net/mcreator/nondystopiamod/client/renderer/PrintRenderer.java",
+          "src/main/java/net/mcreator/nondystopiamod/entity/PrintEntityProjectile.java"
+        ]
+      }
+    },
+    {
+      "name": "Ironpipeasblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironpipeasblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/ironpipeasblock.json",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/block/ironpipeasblock.json",
+          "src/main/java/net/mcreator/nondystopiamod/block/IronpipeasblockBlock.java",
+          "src/main/resources/data/non_dystopia_mod_beta/loot_tables/blocks/ironpipeasblock.json",
+          "src/main/resources/assets/non_dystopia_mod_beta/blockstates/ironpipeasblock.json"
+        ]
+      }
+    },
+    {
+      "name": "HeliumFloat",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helium_float",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/HeliumFloatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Uranusskyfish",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranusskyfish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/entity/UranusskyfishEntity.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/uranusskyfish_spawn_egg.json",
+          "src/main/java/net/mcreator/nondystopiamod/client/renderer/UranusskyfishRenderer.java",
+          "src/main/resources/data/non_dystopia_mod_beta/forge/biome_modifier/uranusskyfish_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Uranus_skyfish_is_very_fast",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranus_skyfish_is_very_fast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/Uranus_skyfish_is_very_fastProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Printusesdaemon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printusesdaemon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/PrintusesdaemonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gestick",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gestick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/entity/GestickEntity.java",
+          "src/main/java/net/mcreator/nondystopiamod/client/renderer/GestickRenderer.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/gestick_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "WrittenFloopySpeeker",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "written_floopy_speeker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/written_floopy_speeker.json",
+          "src/main/java/net/mcreator/nondystopiamod/item/WrittenFloopySpeekerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Speekerfunction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speekerfunction",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/SpeekerfunctionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Speeker",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speeker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/speeker_spawn_egg.json",
+          "src/main/resources/data/non_dystopia_mod_beta/forge/biome_modifier/speeker_biome_modifier.json",
+          "src/main/java/net/mcreator/nondystopiamod/entity/SpeekerEntity.java",
+          "src/main/java/net/mcreator/nondystopiamod/client/renderer/SpeekerRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Usersetteing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "usersetteing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/UsersetteingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Speeker2spawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speeker_2spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/Speeker2spawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Usersettingplayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "usersettingplayer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/UsersettingplayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microwave",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microwave",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/microwave.json",
+          "src/main/resources/data/non_dystopia_mod_beta/loot_tables/blocks/microwave.json",
+          "src/main/resources/assets/non_dystopia_mod_beta/blockstates/microwave.json",
+          "src/main/java/net/mcreator/nondystopiamod/block/MicrowaveBlock.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/block/microwave.json"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "MicrowaveGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microwave_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/world/inventory/MicrowaveGUIMenu.java",
+          "src/main/java/net/mcreator/nondystopiamod/network/MicrowaveGUIButtonMessage.java",
+          "src/main/java/net/mcreator/nondystopiamod/client/gui/MicrowaveGUIScreen.java"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Omode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/OmodeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "MicrowaveGUIopen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microwave_gu_iopen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/MicrowaveGUIopenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Pond",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pond",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/client/particle/PondParticle.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/particles/pond.json"
+        ]
+      }
+    },
+    {
+      "name": "Redcoil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redcoil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/item/RedcoilItem.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/redcoil.json"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Redcoilrecipi",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redcoilrecipi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/non_dystopia_mod_beta/recipes/redcoilrecipi.json"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Microwaverecipi",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microwaverecipi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/non_dystopia_mod_beta/recipes/microwaverecipi.json"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Copperwire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperwire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/copperwire.json",
+          "src/main/java/net/mcreator/nondystopiamod/item/CopperwireItem.java"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Copperwirerecipo",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperwirerecipo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/non_dystopia_mod_beta/recipes/copperwirerecipi.json"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Meicrospencer",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meicrospencer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/entity/MeicrospencerEntity.java",
+          "src/main/java/net/mcreator/nondystopiamod/client/renderer/MeicrospencerRenderer.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/meicrospencer_spawn_egg.json"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Magicbook",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicbook",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/magicbook.json",
+          "src/main/java/net/mcreator/nondystopiamod/item/MagicbookItem.java"
+        ]
+      },
+      "path": "~/magic"
+    },
+    {
+      "name": "Magic",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/entity/MagicEntity.java"
+        ]
+      },
+      "path": "~/magic"
+    },
+    {
+      "name": "Throwedpipe",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwedpipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/client/renderer/ThrowedpipeRenderer.java",
+          "src/main/java/net/mcreator/nondystopiamod/entity/ThrowedpipeEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Simplegun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simplegun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/simplegun_0.json",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/simplegun.json",
+          "src/main/java/net/mcreator/nondystopiamod/item/SimplegunItem.java"
+        ]
+      },
+      "path": "~/guns"
+    },
+    {
+      "name": "Bullet",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/client/renderer/BulletRenderer.java",
+          "src/main/java/net/mcreator/nondystopiamod/entity/BulletEntity.java"
+        ]
+      },
+      "path": "~/guns"
+    },
+    {
+      "name": "Bulletitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bulletitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/bulletitem.json",
+          "src/main/java/net/mcreator/nondystopiamod/item/BulletitemItem.java"
+        ]
+      },
+      "path": "~/guns"
+    },
+    {
+      "name": "Tonercartridge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tonercartridge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/item/TonercartridgeItem.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/tonercartridge.json"
+        ]
+      },
+      "path": "~/toner"
+    },
+    {
+      "name": "Minuscartridge",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minuscartridge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/MinuscartridgeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/toner"
+    },
+    {
+      "name": "Chapshot",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chapshot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/ChapshotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pearlprotection",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearlprotection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/potion/PearlprotectionMobEffect.java"
+        ]
+      },
+      "path": "~/pearl"
+    },
+    {
+      "name": "PearlProtectionEffect",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_protection_effect",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/particles/pearl_protection_effect.json",
+          "src/main/java/net/mcreator/nondystopiamod/client/particle/PearlProtectionEffectParticle.java"
+        ]
+      },
+      "path": "~/pearl"
+    },
+    {
+      "name": "Pearldeploy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearldeploy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/PearldeployProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/pearl"
+    },
+    {
+      "name": "Livetimerout",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livetimerout",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/LivetimeroutProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Livetimer",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livetimer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/potion/LivetimerMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Printbucket",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printbucket",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/item/PrintbucketItem.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/printbucket.json"
+        ]
+      }
+    },
+    {
+      "name": "Printrelease",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "printrelease",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/PrintreleaseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Frequencymicrowave",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frequencymicrowave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/item/FrequencymicrowaveItem.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/frequencymicrowave.json"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Microwaveshoot",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microwaveshoot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/entity/MicrowaveshootEntity.java"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Microwaveshockparticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microwaveshockparticle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/non_dystopia_mod_beta/particles/microwaveshockparticle.json",
+          "src/main/java/net/mcreator/nondystopiamod/client/particle/MicrowaveshockparticleParticle.java"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Microwavedamage",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microwavedamage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/potion/MicrowavedamageMobEffect.java"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Microwavedamagetype",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microwavedamagetype",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/non_dystopia_mod_beta/damage_type/microwavedamagetype.json"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Microwavedamageeffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microwavedamageeffect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/MicrowavedamageeffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Microwavehit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microwavehit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/MicrowavehitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Electrostaticcharge",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrostaticcharge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/potion/ElectrostaticchargeMobEffect.java"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Elecdischarge",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elecdischarge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/client/particle/ElecdischargeParticle.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/particles/elecdischarge.json"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Microwavefrequencyitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microwavefrequencyitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/item/MicrowavefrequencyitemItem.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/microwavefrequencyitem.json"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Meicrobattlesystem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meicrobattlesystem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/procedures/MeicrobattlesystemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Microwaveshield",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microwaveshield",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/potion/MicrowaveshieldMobEffect.java"
+        ]
+      },
+      "path": "~/meicro spencer"
+    },
+    {
+      "name": "Zeropointquantum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeropointquantum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/item/ZeropointquantumItem.java",
+          "src/main/resources/assets/non_dystopia_mod_beta/models/item/zeropointquantum.json"
+        ]
+      },
+      "path": "~/0point quantum"
+    },
+    {
+      "name": "ZeroPointLanching",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zero_point_lanching",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/entity/ZeroPointLanchingEntity.java"
+        ]
+      },
+      "path": "~/0point quantum"
+    },
+    {
+      "name": "Gesticbullet",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gesticbullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nondystopiamod/entity/GesticbulletEntity.java",
+          "src/main/java/net/mcreator/nondystopiamod/client/renderer/GesticbulletRenderer.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "able_use_magic",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Ironpipe",
+      "~CUSTOM:OnlyOneUseBlade"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:Uranusplains"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Pipe"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:Uranusplains"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Ironpipeasblock",
+      "~CUSTOM:HeliumCloud"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Ironpipeasblock",
+      "~CUSTOM:Pipe"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Tonercartridge"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.POWDER_SNOW",
+      "~Blocks.ICE",
+      "~Blocks.PACKED_ICE",
+      "~Blocks.SNOW"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:HeliumCloud"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "entity.non_dystopia_mod_beta.meicrospencer": "Meicrospencer",
+      "effect.non_dystopia_mod_beta.pearlprotection": "Pearlprotection",
+      "item.non_dystopia_mod.redcoil": "Redcoil",
+      "item.non_dystopia_mod.uranus.description_0": "Zero Point Quantum",
+      "item.non_dystopia_mod_beta.only_one_use_blade.description_0": "たった一度の一閃の刃",
+      "item.non_dystopia_mod.floopy": "Blank Floopy",
+      "item.non_dystopia_mod_beta.gestick_spawn_egg": "Gstick Spawn Egg",
+      "block.non_dystopia_mod.helium_cloud": "Helium Cloud",
+      "item.non_dystopia_mod.uranusskyfish_spawn_egg": "Uranusskyfish Spawn Egg",
+      "item.non_dystopia_mod.printbucket": "Printbucket",
+      "entity.non_dystopia_mod.uranusskyfish": "Uranusskyfish",
+      "item.non_dystopia_mod_beta.print_spawn_egg": "Print Spawn Egg",
+      "item.non_dystopia_mod_beta.frequencymicrowave": "Antenna Spear",
+      "item_group.non_dystopia_mod.nondystpia": "Nondystopia",
+      "item.non_dystopia_mod_beta.uranusskyfish_spawn_egg": "Uranusskyfish Spawn Egg",
+      "item_group.non_dystopia_mod_beta.nondystpia": "Nondystopia",
+      "block.non_dystopia_mod.pipe": "Pipe",
+      "item.non_dystopia_mod.uranus": "0 point particle",
+      "item.non_dystopia_mod_beta.tonercartridge": "Tonercartridge",
+      "effect.non_dystopia_mod.electrostaticcharge": "Electrostaticcharge",
+      "effect.non_dystopia_mod_beta.microwaveshield": "Microwaveshield",
+      "effect.non_dystopia_mod_beta.livetimer": "Livetimer",
+      "block.non_dystopia_mod.helium_cloud.description_0": "Solid Helium",
+      "entity.non_dystopia_mod.speeker": "Speeker",
+      "item.non_dystopia_mod_beta.zeropointquantum": "0 point quantum",
+      "item.non_dystopia_mod_beta.simplegun": "Simplegun",
+      "block.non_dystopia_mod.ironpipeasblock": "Iron Pipe placeable",
+      "entity.non_dystopia_mod_beta.print": "Print",
+      "effect.non_dystopia_mod_beta.electrostaticcharge": "Electrostaticcharge",
+      "item.non_dystopia_mod.written_floopy_speeker": "Speeker() Floopy",
+      "item.non_dystopia_mod_beta.speeker_spawn_egg": "Speeker Spawn Egg",
+      "effect.non_dystopia_mod_beta.microwavedamage": "Microwave damage",
+      "item.non_dystopia_mod_beta.only_one_use_blade": "たった一度の一閃の刃",
+      "block.non_dystopia_mod_beta.ironpipeasblock": "Iron Pipe placeable",
+      "item.non_dystopia_mod.only_one_use_blade": "Only one use blade",
+      "effect.non_dystopia_mod.pearlprotection": "Pearlprotection",
+      "entity.non_dystopia_mod_beta.uranusskyfish": "Uranusskyfish",
+      "item.non_dystopia_mod_beta.redcoil": "Redcoil",
+      "item.non_dystopia_mod.meicrospencer_spawn_egg": "Meicrospencer Spawn Egg",
+      "entity.non_dystopia_mod_beta.gestick": "Gstick",
+      "biome.non_dystopia_mod.uranus_ether": "Uranus Ether",
+      "death.attack.microwavedamagetype": "%1$s was microwaved",
+      "death.attack.microwavedamagetype.item": "%1$s was microwaved by %2$s using %3$s",
+      "item.non_dystopia_mod.microwavefrequencyitem": "frequency microwave",
+      "item.non_dystopia_mod.tonercartridge": "Tonercartridge",
+      "item.non_dystopia_mod_beta.uranus.description_0": "0次元の粒子",
+      "item.non_dystopia_mod.bulletitem": "Bulletitem",
+      "item.non_dystopia_mod.print_spawn_egg": "Print Spawn Egg",
+      "biome.non_dystopia_mod_beta.uranusplains": "Uranus Plains",
+      "effect.non_dystopia_mod.microwaveshield": "Microwaveshield",
+      "item.non_dystopia_mod.only_one_use_blade.description_0": "Only one use blade",
+      "item.non_dystopia_mod.written_floopy_c_ha_p": "CHaP() Floopy",
+      "item.non_dystopia_mod_beta.copperwire": "Copperwire",
+      "biome.non_dystopia_mod_beta.uranus_ether": "Uranus Ether",
+      "block.non_dystopia_mod_beta.pipe": "Pipe",
+      "item.non_dystopia_mod.simplegun": "Simplegun",
+      "block.non_dystopia_mod_beta.helium_cloud.description_0": "個体ヘリウム",
+      "gui.non_dystopia_mod_beta.microwave_gui.button_o_mode": "start",
+      "item.non_dystopia_mod_beta.uranus": "0 point particle",
+      "item.non_dystopia_mod_beta.ironpipe": "Ironpipe",
+      "entity.non_dystopia_mod.print": "Print",
+      "item.non_dystopia_mod.floopy.description_0": "blank",
+      "item.non_dystopia_mod_beta.printbucket": "Printbucket",
+      "item.non_dystopia_mod.frequencymicrowave": "Antenna Spear",
+      "item.non_dystopia_mod.speeker_spawn_egg": "Speeker Spawn Egg",
+      "item.non_dystopia_mod_beta.microwavefrequencyitem": "frequency microwave",
+      "entity.non_dystopia_mod.meicrospencer": "Meicrospencer",
+      "item.non_dystopia_mod_beta.floopy": "Blank Floopy",
+      "entity.non_dystopia_mod_beta.speeker": "Speeker",
+      "item.non_dystopia_mod.ironpipe": "Ironpipe",
+      "death.attack.microwavedamagetype.player": "%1$s microwaved whilst trying to escape %2$s",
+      "item.non_dystopia_mod_beta.meicrospencer_spawn_egg": "Meicrospencer Spawn Egg",
+      "entity.non_dystopia_mod.gestick": "Gstick",
+      "block.non_dystopia_mod_beta.helium_cloud": "Helium Cloud",
+      "item.non_dystopia_mod_beta.written_floopy_c_ha_p": "CHaP() Floopy",
+      "item.non_dystopia_mod_beta.magicbook": "Magicbook",
+      "item.non_dystopia_mod_beta.bulletitem": "Bulletitem",
+      "item.non_dystopia_mod_beta.written_floopy_speeker": "Speeker() Floopy",
+      "item.non_dystopia_mod.gestick_spawn_egg": "Gstick Spawn Egg",
+      "biome.non_dystopia_mod.uranusplains": "Uranus Plains",
+      "gui.non_dystopia_mod.microwave_gui.button_o_mode": "start",
+      "item.non_dystopia_mod.zeropointquantum": "0 point quantum",
+      "item.non_dystopia_mod.magicbook": "Magicbook",
+      "effect.non_dystopia_mod.livetimer": "Livetimer",
+      "effect.non_dystopia_mod.microwavedamage": "Microwave damage",
+      "block.non_dystopia_mod.microwave": "Microwave",
+      "item.non_dystopia_mod_beta.floopy.description_0": "blank",
+      "block.non_dystopia_mod_beta.microwave": "Microwave",
+      "item.non_dystopia_mod.copperwire": "Copperwire"
+    },
+    "ja_jp": {
+      "entity.non_dystopia_mod_beta.meicrospencer": "Meicrospencer",
+      "effect.non_dystopia_mod_beta.pearlprotection": "Pearlprotection",
+      "item.non_dystopia_mod.redcoil": "コイル",
+      "item.non_dystopia_mod.uranus.description_0": "天王星へつながるポータルを開くことができる。",
+      "item.non_dystopia_mod_beta.only_one_use_blade.description_0": "たった一度の一閃の刃",
+      "item.non_dystopia_mod.floopy": "何も書き込まれていないフロッピーディスク",
+      "item.non_dystopia_mod_beta.gestick_spawn_egg": "Gstick Spawn Egg",
+      "item.non_dystopia_mod.uranusskyfish_spawn_egg": "ウラヌススカイフィッシュのスポーンエッグ",
+      "block.non_dystopia_mod.helium_cloud": "ヘリウムの雲",
+      "item.non_dystopia_mod.printbucket": "バケツ入りのプリント",
+      "entity.non_dystopia_mod.uranusskyfish": "ウラヌススカイフィッシュ",
+      "item.non_dystopia_mod_beta.print_spawn_egg": "Print Spawn Egg",
+      "item.non_dystopia_mod_beta.frequencymicrowave": "Antenna Spear",
+      "item_group.non_dystopia_mod.nondystpia": "ノンディストピア",
+      "item.non_dystopia_mod_beta.uranusskyfish_spawn_egg": "Uranusskyfish Spawn Egg",
+      "item_group.non_dystopia_mod_beta.nondystpia": "Nondystopia",
+      "block.non_dystopia_mod.pipe": "パイプ",
+      "item.non_dystopia_mod.uranus": "天王星につながったゼロ次元の量子",
+      "item.non_dystopia_mod_beta.tonercartridge": "Tonercartridge",
+      "effect.non_dystopia_mod.electrostaticcharge": "帯電",
+      "effect.non_dystopia_mod_beta.microwaveshield": "Microwaveshield",
+      "effect.non_dystopia_mod_beta.livetimer": "Livetimer",
+      "block.non_dystopia_mod.helium_cloud.description_0": "個体ヘリウム",
+      "entity.non_dystopia_mod.speeker": "スピーカー",
+      "item.non_dystopia_mod_beta.zeropointquantum": "0 point quantum",
+      "item.non_dystopia_mod_beta.simplegun": "Simplegun",
+      "block.non_dystopia_mod.ironpipeasblock": "設置可能な鉄パイプ",
+      "entity.non_dystopia_mod_beta.print": "Print",
+      "effect.non_dystopia_mod_beta.electrostaticcharge": "Electrostaticcharge",
+      "item.non_dystopia_mod.written_floopy_speeker": "Speekerのフロッピーディスク",
+      "item.non_dystopia_mod_beta.speeker_spawn_egg": "Speeker Spawn Egg",
+      "effect.non_dystopia_mod_beta.microwavedamage": "Microwave damage",
+      "item.non_dystopia_mod_beta.only_one_use_blade": "たった一度の一閃の刃",
+      "block.non_dystopia_mod_beta.ironpipeasblock": "Iron Pipe placeable",
+      "item.non_dystopia_mod.only_one_use_blade": "たった一度の一閃の刃",
+      "effect.non_dystopia_mod.pearlprotection": "真珠バリア",
+      "entity.non_dystopia_mod_beta.uranusskyfish": "Uranusskyfish",
+      "item.non_dystopia_mod_beta.redcoil": "Redcoil",
+      "item.non_dystopia_mod.meicrospencer_spawn_egg": "スペンサーのスポーンエッグ",
+      "entity.non_dystopia_mod_beta.gestick": "Gstick",
+      "biome.non_dystopia_mod.uranus_ether": "天王平野",
+      "death.attack.microwavedamagetype": "%1$s はレンジでチンされた",
+      "death.attack.microwavedamagetype.item": "%1$s は %2$s でレンジ加熱された %3$s",
+      "item.non_dystopia_mod.microwavefrequencyitem": "マイクロ波の波形",
+      "item.non_dystopia_mod.tonercartridge": "トナーカートリッジ",
+      "item.non_dystopia_mod_beta.uranus.description_0": "0次元の粒子",
+      "item.non_dystopia_mod.bulletitem": "銃弾",
+      "item.non_dystopia_mod.print_spawn_egg": "プリントのスポーンエッグ",
+      "biome.non_dystopia_mod_beta.uranusplains": "Uranus Plains",
+      "effect.non_dystopia_mod.microwaveshield": "マイクロ波シールド",
+      "item.non_dystopia_mod.only_one_use_blade.description_0": "たった一度の一閃の刃",
+      "item.non_dystopia_mod.written_floopy_c_ha_p": "CHaPのフロッピーディスク",
+      "item.non_dystopia_mod_beta.copperwire": "Copperwire",
+      "biome.non_dystopia_mod_beta.uranus_ether": "Uranus Ether",
+      "block.non_dystopia_mod_beta.pipe": "Pipe",
+      "item.non_dystopia_mod.simplegun": "手作りの銃",
+      "block.non_dystopia_mod_beta.helium_cloud.description_0": "個体ヘリウム",
+      "gui.non_dystopia_mod_beta.microwave_gui.button_o_mode": "start",
+      "item.non_dystopia_mod_beta.uranus": "0 point particle",
+      "item.non_dystopia_mod_beta.ironpipe": "Ironpipe",
+      "entity.non_dystopia_mod.print": "プリント",
+      "item.non_dystopia_mod.floopy.description_0": "blank",
+      "item.non_dystopia_mod_beta.printbucket": "Printbucket",
+      "item.non_dystopia_mod.frequencymicrowave": "マイクロ波",
+      "item.non_dystopia_mod.speeker_spawn_egg": "スピーカーのスポーンエッグ",
+      "item.non_dystopia_mod_beta.microwavefrequencyitem": "frequency microwave",
+      "entity.non_dystopia_mod.meicrospencer": "メイクロスペンサー",
+      "item.non_dystopia_mod_beta.floopy": "Blank Floopy",
+      "entity.non_dystopia_mod_beta.speeker": "Speeker",
+      "item.non_dystopia_mod.ironpipe": "鉄パイプ",
+      "death.attack.microwavedamagetype.player": "%1$s は %2$sから逃れようとして結局レンジでチンされた",
+      "item.non_dystopia_mod_beta.meicrospencer_spawn_egg": "Meicrospencer Spawn Egg",
+      "entity.non_dystopia_mod.gestick": "ゲスティック",
+      "block.non_dystopia_mod_beta.helium_cloud": "Helium Cloud",
+      "item.non_dystopia_mod_beta.written_floopy_c_ha_p": "CHaP() Floopy",
+      "item.non_dystopia_mod_beta.magicbook": "Magicbook",
+      "item.non_dystopia_mod_beta.bulletitem": "Bulletitem",
+      "item.non_dystopia_mod_beta.written_floopy_speeker": "Speeker() Floopy",
+      "item.non_dystopia_mod.gestick_spawn_egg": "ゲスティックのスポーンエッグ",
+      "biome.non_dystopia_mod.uranusplains": "天王高原",
+      "gui.non_dystopia_mod.microwave_gui.button_o_mode": "スタート",
+      "item.non_dystopia_mod.zeropointquantum": "ゼロ次元の量子",
+      "item.non_dystopia_mod.magicbook": "魔導書",
+      "effect.non_dystopia_mod.livetimer": "印刷解除タイマー",
+      "effect.non_dystopia_mod.microwavedamage": "電子レンジ",
+      "block.non_dystopia_mod.microwave": "電子レンジ",
+      "item.non_dystopia_mod_beta.floopy.description_0": "blank",
+      "block.non_dystopia_mod_beta.microwave": "Microwave",
+      "item.non_dystopia_mod.copperwire": "銅線"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "meicro spencer",
+        "children": []
+      },
+      {
+        "name": "magic",
+        "children": []
+      },
+      {
+        "name": "guns",
+        "children": []
+      },
+      {
+        "name": "toner",
+        "children": []
+      },
+      {
+        "name": "pearl",
+        "children": []
+      },
+      {
+        "name": "0point quantum",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "non_dystopia_mod_beta",
+    "modName": "Non Dystopia mod-beta",
+    "version": "1.0.7",
+    "description": "beta",
+    "author": "hakotsuki,MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "modPicture": "printsshell",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.nondystopiamod"
+  },
+  "mcreatorVersion": 202400452410
+}

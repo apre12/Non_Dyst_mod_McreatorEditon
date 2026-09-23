@@ -1,0 +1,9 @@
+{
+  "parent": "non_dystopia_mod_beta:custom/model",
+  "textures": {
+    "0": "non_dystopia_mod_beta:block/folder",
+    "1": "non_dystopia_mod_beta:block/page",
+    "2": "non_dystopia_mod_beta:block/stoper",
+    "particle": "non_dystopia_mod_beta:item/magic_book"
+  }
+}

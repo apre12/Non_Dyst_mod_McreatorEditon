@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "non_dystopia_mod_beta:item/redcoil2"
+  }
+}

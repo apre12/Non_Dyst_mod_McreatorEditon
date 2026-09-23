@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "non_dystopia_mod_beta:item/floopy_disc"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "damage": 0.000000001
+      },
+      "model": "non_dystopia_mod_beta:item/floopy_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.000000002
+      },
+      "model": "non_dystopia_mod_beta:item/floopy_1"
+    }
+  ]
+}
